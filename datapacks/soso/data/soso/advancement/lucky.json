@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:command_block"
+        },
+        "title": {
+            "text": "清除幸運",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "你以為你可以一直好運嗎？。"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "soso:rootb",
+    "criteria": {
+        "lucky": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:luck": {
+                        "amplifier": {
+                            "min": 0,
+                            "max": 255
+                        },
+                        "duration": {
+                            "min": 0,
+                            "max": 99999999
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "soso:lucky"
+    }
+}

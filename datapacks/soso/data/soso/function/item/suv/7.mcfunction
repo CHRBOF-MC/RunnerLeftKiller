@@ -1,0 +1,24 @@
+function soso:item/suv/health_reset
+item replace entity @s armor.head with netherite_helmet[enchantments={"minecraft:binding_curse":1},unbreakable={},attribute_modifiers=[{type:"max_health",slot:"head",amount:-6,operation:"add_value",id:"3c7995c4-3e6e-b283-3cc7-7b536e603d76"}],custom_name=[{"text":""},{"text":"咒術之帽","color":"gold","bold":true}],lore=["漆黑的很中二"," "],custom_data={suv:1b}]
+execute if score knono zTEST matches 0 run give @s bow[can_break={blocks:"minecraft:stripped_acacia_log"},enchantments={"minecraft:knockback":2},unbreakable={},custom_name=[{"text":""},{"text":"咒術之弓","color":"gold","bold":true}],lore=["附加咒術的弓！","機率觸發緩速效果！"],custom_data={slowram:1b,suv:1b}]
+#execute if score knono zTEST matches 0 run give @s[team=Runner] minecraft:white_banner{Nonknow:1b,flykill:1b,BlockEntityTag:{Base:10,Patterns:[{Pattern:cbo,Color:4},{Pattern:mc,Color:4},{Pattern:tt,Color:4},{Pattern:mr,Color:4}]},AttributeModifiers:[{AttributeName:"knockbackResistance",Name:"knockbackResistance",Amount:100.0d,Operation:0,UUIDMost:46351,UUIDLeast:170121,Slot:"offhand"}],HideFlags:32,display:{Name:[{"text":""},{"text":"全體無敵咒(7s)【Q】","color":"gold","bold":true}],Lore:["丟出使用，","給予全體逃生者7秒無敵。"," "]}}
+#execute if score knono zTEST matches 0 run give @s[team=Killer] minecraft:white_banner{Nonknowk:1b,flykill:1b,BlockEntityTag:{Base:10,Patterns:[{Pattern:cbo,Color:4},{Pattern:mc,Color:4},{Pattern:tt,Color:4},{Pattern:mr,Color:4}]},AttributeModifiers:[{AttributeName:"knockbackResistance",Name:"knockbackResistance",Amount:100.0d,Operation:0,UUIDMost:46351,UUIDLeast:170121,Slot:"offhand"}],HideFlags:32,display:{Name:[{"text":""},{"text":"全體無敵咒(7s)【Q】","color":"gold","bold":true}],Lore:["丟出使用，","給予全體逃生者7秒無敵。"," "]}}
+execute if score knono zTEST matches 0 run give @s[team=Runner] white_banner[base_color="purple",banner_patterns=[{pattern:"minecraft:curly_border",color:"yellow"},{pattern:"minecraft:circle",color:"yellow"},{pattern:"minecraft:triangle_top",color:"yellow"},{pattern:"minecraft:rhombus",color:"yellow"}],custom_name=[{"text":""},{"text":"全體無敵咒(7s)【Q】","color":"gold","bold":true}],lore=["丟出使用，","給予全體逃生者7秒無敵。"," "],custom_data={Nonknow:1b,flykill:1b}]
+execute if score knono zTEST matches 0 run give @s[team=Killer] white_banner[base_color="purple",banner_patterns=[{pattern:"minecraft:curly_border",color:"yellow"},{pattern:"minecraft:circle",color:"yellow"},{pattern:"minecraft:triangle_top",color:"yellow"},{pattern:"minecraft:rhombus",color:"yellow"}],custom_name=[{"text":""},{"text":"全體無敵咒(7s)【Q】","color":"gold","bold":true}],lore=["丟出使用，","給予全體逃生者7秒無敵。"," "],custom_data={Nonknowk:1b,flykill:1b}]
+
+
+execute if score knono zTEST matches 1 run give @s bow[can_break={blocks:"minecraft:stripped_acacia_log"},enchantments={"minecraft:knockback":1},unbreakable={},custom_name=[{"text":""},{"text":"咒術之弓","color":"gold","bold":true}],lore=["附加咒術的弓！","機率觸發緩速效果！"],custom_data={slowram:1b,suv:1b}]
+#execute if score knono zTEST matches 1 run give @s[team=Runner] minecraft:white_banner{Nonknow:1b,flykill:1b,BlockEntityTag:{Base:10,Patterns:[{Pattern:cbo,Color:4},{Pattern:mc,Color:4},{Pattern:tt,Color:4},{Pattern:mr,Color:4}]},AttributeModifiers:[{AttributeName:"knockbackResistance",Name:"knockbackResistance",Amount:100.0d,Operation:0,UUIDMost:46351,UUIDLeast:170121,Slot:"offhand"}],HideFlags:32,display:{Name:[{"text":""},{"text":"全體無敵咒(4s)【Q】","color":"gold","bold":true}],Lore:["丟出使用，","給予全體逃生者7秒無敵。"," "]}}
+#execute if score knono zTEST matches 1 run give @s[team=Killer] minecraft:white_banner{Nonknowk:1b,flykill:1b,BlockEntityTag:{Base:10,Patterns:[{Pattern:cbo,Color:4},{Pattern:mc,Color:4},{Pattern:tt,Color:4},{Pattern:mr,Color:4}]},AttributeModifiers:[{AttributeName:"knockbackResistance",Name:"knockbackResistance",Amount:100.0d,Operation:0,UUIDMost:46351,UUIDLeast:170121,Slot:"offhand"}],HideFlags:32,display:{Name:[{"text":""},{"text":"全體無敵咒(4s)【Q】","color":"gold","bold":true}],Lore:["丟出使用，","給予全體逃生者7秒無敵。"," "]}}
+execute if score knono zTEST matches 1 run give @s[team=Runner] white_banner[base_color="purple",banner_patterns=[{pattern:"minecraft:curly_border",color:"yellow"},{pattern:"minecraft:circle",color:"yellow"},{pattern:"minecraft:triangle_top",color:"yellow"},{pattern:"minecraft:rhombus",color:"yellow"}],custom_name=[{"text":""},{"text":"全體無敵咒(4s)【Q】","color":"gold","bold":true}],lore=["丟出使用，","給予全體逃生者7秒無敵。"," "],custom_data={Nonknow:1b,flykill:1b}]
+execute if score knono zTEST matches 1 run give @s[team=Runner] white_banner[base_color="purple",banner_patterns=[{pattern:"minecraft:curly_border",color:"yellow"},{pattern:"minecraft:circle",color:"yellow"},{pattern:"minecraft:triangle_top",color:"yellow"},{pattern:"minecraft:rhombus",color:"yellow"}],custom_name=[{"text":""},{"text":"全體無敵咒(4s)【Q】","color":"gold","bold":true}],lore=["丟出使用，","給予全體逃生者7秒無敵。"," "],custom_data={Nonknow:1b,flykill:1b}]
+
+
+
+
+
+
+
+
+
+

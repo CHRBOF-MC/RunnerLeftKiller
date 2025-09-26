@@ -1,0 +1,23 @@
+
+give @p minecraft:player_head[profile="Hi_Chocolate"]
+give @p minecraft:player_head[profile="DMoon1903"]
+give @p minecraft:player_head[profile="phantomXjack"]
+give @p minecraft:player_head[profile="GunGunHeng2610"]
+give @p minecraft:player_head[profile="Tuan_Tuan"]
+give @p minecraft:player_head[profile="oreki20"]
+give @p minecraft:player_head[profile="Dai_Cyuan"]
+give @p minecraft:player_head[profile="Hageeshow"]
+give @p minecraft:player_head[profile="Fanshing"]
+give @p minecraft:player_head[profile="Hsiao_Yui"]
+give @p minecraft:player_head[profile="coyablog"]
+give @p minecraft:player_head[profile="jerry40822"]
+give @p minecraft:player_head[profile="RabbitAbi"]
+give @p minecraft:player_head[profile="Fashishi"]
+give @p minecraft:player_head[profile="LemuPei"]
+give @p minecraft:player_head[profile="Tobi0530"]
+give @p minecraft:player_head[profile="SnapShot"]
+give @p minecraft:player_head[profile="PicoYang"]
+give @p minecraft:player_head[profile="kurokotetsupei"]
+give @p minecraft:player_head[profile="SoySauceXD"]
+
+

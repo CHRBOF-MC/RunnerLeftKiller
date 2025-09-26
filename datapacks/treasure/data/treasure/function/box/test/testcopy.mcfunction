@@ -1,0 +1,6 @@
+execute at @e[limit=1,tag=ramdon] positioned ~ 0 ~ run setblock ~ ~ ~ stone
+execute at @e[limit=1,tag=ramdon] positioned ~ 0 ~ run setblock ~ ~ ~ white_shulker_box{Items:[{Slot:0b,id:"minecraft:blaze_rod",count:1,components:{"minecraft:lore":["不為什麼只是想殺","所以就殺光吧。"],"minecraft:unbreakable":{},"minecraft:item_model":"rlk:killer_stick","minecraft:custom_name":[{"text":""},{"text":"殺手大棒","color":"gold","bold":true}],"minecraft:can_break":{blocks:"minecraft:stripped_acacia_log"},"minecraft:attribute_modifiers":{modifiers:[{amount:3,id:"234t5tgf14t3tgre14t33",name:"ddd",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.4d,id:"234t5tgf14t3tgre14t33",name:"ddd",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}],show_in_tooltip:1b},"minecraft:custom_data":{khurt:1b}}}],Lock:"1234"}
+
+execute at @e[limit=1,tag=ramdon] store result block ~ 0 ~ Items[0].components."minecraft:attribute_modifiers"."modifiers"[{"type":"minecraft:attack_damage"}].amount double 1 if entity @a[team=Runner,gamemode=adventure]
+
+execute at @e[limit=1,tag=ramdon] positioned ~ 0 ~ run loot replace entity @s weapon.mainhand 1 mine ~ ~ ~ minecraft:diamond_pickaxe[minecraft:custom_data={shopbuy:1b}]

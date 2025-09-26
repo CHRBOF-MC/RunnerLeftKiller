@@ -1,0 +1,1 @@
+$tellraw @a ["",{"selector":"@s"},{"text":" : ","color":"red"},{"score":{"name":"@s","objective":"rlk.kill_count"},"color":"red","hover_event":{"action":"show_text","value":{"type":"nbt","source":"storage","storage":"rlk:killed_player","nbt":"records.$(killer_code)[]","interpret":true,"separator":{"text":", \n","color":"gray"}}}}]

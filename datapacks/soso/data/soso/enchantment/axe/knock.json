@@ -1,0 +1,45 @@
+{
+    "description": {
+        "text": "抗退",
+        "color": "green"
+    },
+    "supported_items": "#minecraft:enchantable/durability",
+    "primary_items": "#minecraft:enchantable/durability",
+    "weight": 1,
+    "max_level": 100,
+    "min_cost": {
+        "base": 22,
+        "per_level_above_first": 4
+    },
+    "max_cost": {
+        "base": 45,
+        "per_level_above_first": 4
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": {
+                        "type": "minecraft:enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 0.01,
+                            "per_level_above_first": 0.01
+                        }
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "soso:skill/knock/start"
+                },
+                "enchanted": "victim",
+                "affected": "victim"
+            }
+        ]
+    }
+}

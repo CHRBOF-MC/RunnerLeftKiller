@@ -1,0 +1,16 @@
+{
+    "parent": "soso:root",
+    "criteria": {
+        "task45": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[knock_ench]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "soso:skill/knock/end"
+    }
+}

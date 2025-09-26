@@ -1,0 +1,1 @@
+give @s minecraft:iron_sword[minecraft:item_model="rlk:mode/ourkill/killer_kitchen_knife",can_break={blocks:"minecraft:stripped_acacia_log"},unbreakable={},custom_name=[{"text":""},{"text":"叛徒屠刀","color":"gold","bold":true}],lore=["殺光所有人吧！","如此一來殺手們便會饒恕你。"]]

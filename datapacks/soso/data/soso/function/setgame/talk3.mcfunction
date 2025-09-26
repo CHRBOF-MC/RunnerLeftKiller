@@ -1,0 +1,42 @@
+title @s times 0 40 0
+title @s title [{"text":"逃脫升天","color":"yellow","bold":true}]
+
+
+tellraw @s [{"text":"─────────────────────────────","color":"yellow","bold":true}]
+tellraw @s [{"text":"歡迎來到 逃脫升天 的世界中，在此體驗狂歡的慶典洗禮吧！","color":"yellow","bold":true}]
+tellraw @s [{"text":"─────────────────────────────","color":"yellow","bold":true}]
+tellraw @s [{"text":"企劃：","color":"yellow","bold":false},{"text":"Mty_","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(幽閉地牢)：","color":"yellow","bold":false},{"text":"Mty_、Ryanyj_","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(海底世界)：","color":"yellow","bold":false},{"text":"Die_XL_、wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(口水神殿)：","color":"yellow","bold":false},{"text":"Mty_、bluegreensea","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(無名小屋)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(恐龍大廈)：","color":"yellow","bold":false},{"text":"Mty_、bluegreensea、CHRBOF","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(派對世界)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(逃離礦坑)：","color":"yellow","bold":false},{"text":"Zx_Winter_Wolf","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(叢林闖關)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(魔術師之塔)：","color":"yellow","bold":false},{"text":"CHRBOF、bluegreensea","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(山道競逐)：","color":"yellow","bold":false},{"text":"CHRBOF、Mty_、bluegreensea、Zx_Winter_Wolf","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(天堂之路)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(星河探險)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(無名博物館)：","color":"yellow","bold":false},{"text":"wumingyo、Dns_LAP","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(電路工廠)：","color":"yellow","bold":false},{"text":"CuteLime","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(冰霜峽谷)：","color":"yellow","bold":false},{"text":"CHRBOF、bluegreensea、Ryanyj、Dns_LAP","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(大運動會)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(50層監獄)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(菌絲孤嶼)：","color":"yellow","bold":false},{"text":"CHRBOF、bluegreensea","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(地獄探索)：","color":"yellow","bold":false},{"text":"Zx_Winter_Wolf、Dns_LAP","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(無名城堡)：","color":"yellow","bold":false},{"text":"wumingyo、Dns_LAP","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(終界)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(引爆太空站)：","color":"yellow","bold":false},{"text":"Mty_","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(相位迷域)：","color":"yellow","bold":false},{"text":"CHRBOF","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(商場)：","color":"yellow","bold":false},{"text":"wumingyo","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(地獄前行)：","color":"yellow","bold":false},{"text":"CHRBOF、bluegreensea、Dns_LAP","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(暗侵古堡)：","color":"yellow","bold":false},{"text":"CHRBOF、bluegreensea、Mty_、Dns_LAP","color":"white","bold":false}]
+execute if score CHRBOFsever zTEST matches 1 run tellraw @s [{"text":"建築(蜂窩迷途)：","color":"yellow","bold":false},{"text":"CuteLime、Mty_、CHRBOF、Dns_LAP","color":"white","bold":false}]
+tellraw @s [{"text":"系統：","color":"yellow","bold":false},{"text":"CHRBOF","color":"white","bold":false}]
+tellraw @s [{"text":"除錯：","color":"yellow","bold":false},{"text":"Mty_、CHRBOF、Ryanyj、bluegreensea","color":"white","bold":false}]
+tellraw @s [{"text":"─────────────────────────────","color":"yellow","bold":true}]
+
+
+
+

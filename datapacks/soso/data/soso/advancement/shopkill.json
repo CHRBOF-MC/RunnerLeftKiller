@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:poppy"
+        },
+        "title": {
+            "text": "殺手爆氣",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "打一下會怎樣喔030"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "soso:root",
+    "criteria": {
+        "asd": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "soso:item/shop/shopkill"
+    }
+}

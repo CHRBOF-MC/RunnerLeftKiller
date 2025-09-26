@@ -1,0 +1,1 @@
+give @s minecraft:stick[minecraft:item_model="rlk:knockback_stick",can_break={blocks:"minecraft:stripped_acacia_log"},enchantments={"minecraft:knockback":1},custom_name=[{"text":""},{"text":"求生者之棒","color":"gold","bold":true}],lore=["為了求生的最後手段","用來掃退殺手吧。"],custom_data={suv:1b}]

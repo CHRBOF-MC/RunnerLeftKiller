@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+  	{
+  		"rolls": 1,
+  		"entries": [
+  			{
+  				"type": "minecraft:item",
+  				"functions": [
+  					{
+  						"function": "minecraft:set_name",
+  						"entity": "this",
+  						"name": {"selector":"@s"}
+  					},
+  					{
+  						"function": "minecraft:set_lore",
+  						"lore":[{"text":"玩家曾經死亡過一回的象徵。","italic":true,"color":"aqua"},{"text":"  ","italic":true,"color":"aqua"}]
+  					},
+  					{
+  						"function": "minecraft:fill_player_head",
+  						"entity": "this"
+  					}
+  				],
+  				"conditions": [
+  					{
+  						"condition": "minecraft:entity_properties",
+  						"predicate":{
+  							"nbt": "{Tags:[player_head]}"
+  						},
+  						"entity": "this"
+  					}
+  				],
+  				"name": "minecraft:player_head"
+  			}
+  		]
+  	}
+  ]
+}

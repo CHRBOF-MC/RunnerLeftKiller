@@ -1,0 +1,36 @@
+{
+    "description": {
+        "text": "連鎖",
+        "color": "green"
+    },
+    "supported_items": "minecraft:crossbow",
+    "primary_items": "minecraft:crossbow",
+    "weight": 1,
+    "max_level": 5,
+    "min_cost": {
+        "base": 22,
+        "per_level_above_first": 8
+    },
+    "max_cost": {
+        "base": 45,
+        "per_level_above_first": 8
+    },
+    "anvil_cost": 14,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:projectile_spread": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 10,
+                        "per_level_above_first": 10
+                    }
+                }
+            }
+        ]
+    }
+}

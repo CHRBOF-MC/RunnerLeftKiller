@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:obsidian"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "G": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "item": "minecraft:ghast_tear",
+        "count": 1
+    }
+}

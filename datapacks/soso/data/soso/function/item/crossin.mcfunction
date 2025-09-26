@@ -1,0 +1,2 @@
+execute as @a[tag=crossin,scores={team=5}] run item replace entity @s weapon.mainhand with minecraft:crossbow[charged_projectiles=[{id:"minecraft:arrow",count:1},{id:"minecraft:arrow",count:1},{id:"minecraft:arrow",count:1}],can_break={blocks:"minecraft:stripped_acacia_log"},enchantments={"minecraft:quick_charge":1,"soso:bow/boost":1},unbreakable={},custom_name=[{"text":""},{"text":"牛仔之弩","color":"gold","bold":true}],lore=["用連發機關槍","來射退殺手吧。"],custom_data={suv:1b}]
+tag @a remove crossin

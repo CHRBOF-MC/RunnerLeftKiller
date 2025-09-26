@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bone"
+        },
+        "title": {
+            "text": "遭受審判",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "被投票了QQ"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "soso:rootb",
+    "criteria": {
+        "asd": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [],
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "custom_data": {"cleark" :true}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "soso:gamemode/spy/cleark"
+    }
+}

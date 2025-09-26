@@ -1,0 +1,1 @@
+give @s minecraft:iron_sword[minecraft:item_model="rlk:mode/ghast/killer_sword",can_break={blocks:"minecraft:stripped_acacia_log"},enchantments={"minecraft:knockback":10,"minecraft:sweeping_edge":99},unbreakable={},custom_name=[{"text":""},{"text":"殺手之劍","color":"gold","bold":true}],lore=["不為什麼只是想殺","所以就殺光吧。","然後就惡靈纏身了。"]]

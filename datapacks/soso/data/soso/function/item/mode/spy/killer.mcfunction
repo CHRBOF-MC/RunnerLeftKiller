@@ -1,0 +1,2 @@
+item replace entity @s container.1 with minecraft:iron_shovel[minecraft:item_model="rlk:mode/spy/killer_stabbing_sword",attribute_modifiers=[{type:"attack_damage",slot:"feet",amount:0.5d,operation:"add_value",id:"3d2a176d-3ba0-b0ae-3f7e-835d631b508a"}],custom_name=[{"text":""},{"text":"殺戮尖刃","color":"gold","bold":true}],lore=["混入逃生者的殺手的武器","在夜晚時間手持會變得更強。"],unbreakable={}]
+function soso:item/mode/spy/night_2

@@ -1,0 +1,1 @@
+tellraw @a "看得懂我嗎>wQ"

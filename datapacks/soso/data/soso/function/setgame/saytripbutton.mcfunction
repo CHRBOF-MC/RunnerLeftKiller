@@ -1,0 +1,12 @@
+clear @s[tag=book2]
+execute as @s[tag=book2] run function soso:setgame/book2
+give @s minecraft:command_block[block_entity_data={id:"minecraft:command_block",auto:1b,Command:"function soso:game/buttonbreak/button"},custom_name={"text":"陷阱按鈕"}]
+give @s minecraft:command_block[block_entity_data={id:"minecraft:command_block",auto:1b,Command:"function soso:game/buttonbreak/buttonglow"},custom_name={"text":"陷阱按鈕顯示"}]
+give @s minecraft:command_block[block_entity_data={id:"minecraft:command_block",auto:1b,Command:"function soso:game/buttonbreak/buttonkill"},custom_name={"text":"陷阱按鈕消滅器"}]
+give @s minecraft:command_block[block_entity_data={id:"minecraft:command_block",auto:1b,Command:"function soso:game/buttonbreak/buttondoorreset"},custom_name={"text":"重置按鈕關聯門"}]
+
+
+tellraw @s ["",{"text":"《設定陷阱按鈕材質》","bold":true,"color":"aqua"},{"text":"\n"},{"text":"《《《│","color":"aqua","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/type1"}},{"text":"│》》》","color":"aqua","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/type0"}}]
+tellraw @s ["",{"text":"《設定陷阱按鈕注目模式》【預設：注目】","bold":true,"color":"aqua"},{"text":"\n"},{"text":"【靜音】","color":"aqua","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/sound1"}},{"text":"【注目】","color":"aqua","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/sound0"}}]
+tellraw @s ["",{"text":"《設定陷阱按鈕編號》","bold":true,"color":"green"},{"text":"\n"},{"text":"【增加】","color":"green","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/base1"}},{"text":"【減少】","color":"green","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/base0"}},{"text":"\n"},{"text":"《設定陷阱門開啟時間》","bold":true,"color":"dark_red"},{"text":"\n"},{"text":"【增加】","color":"dark_red","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/open1"}},{"text":"【減少】","color":"dark_red","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/open0"}}]
+tellraw @s ["",{"text":"《設定陷阱門再闔上時間》【0秒為不再關上】","bold":true,"color":"aqua"},{"text":"\n"},{"text":"【增加】","color":"aqua","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/close1"}},{"text":"【減少】","color":"aqua","click_event":{"action":"run_command","command":"/function soso:setgame/tripbutton/close0"}}]

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond"
+        },
+        "title": {
+            "text": "求生意志",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "參加神秘地圖"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
