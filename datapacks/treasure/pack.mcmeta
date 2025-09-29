@@ -1,6 +1,14 @@
 {
     "pack": {
-            "pack_format": 1,
-            "description": "描述"
+        "pack_format": 1,
+        "description": "描述"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancement/.*"
+            }
+        ]
     }
 }
