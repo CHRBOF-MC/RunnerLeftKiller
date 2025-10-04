@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:end_stone",
+    "minecraft:ender_pearl",
+    "minecraft:tnt",
+    "minecraft:amethyst_shard",
+    "minecraft:diamond",
+    "minecraft:ancient_debris",
+    "minecraft:dragon_breath",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:ender_pearl",
+    "minecraft:sand",
+    "minecraft:wheat"
+  ]
+}

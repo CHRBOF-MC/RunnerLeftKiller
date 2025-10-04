@@ -7,3 +7,4 @@ give @s minecraft:dark_oak_sign[block_entity_data={id:"minecraft:dark_oak_sign",
 give @s minecraft:dark_oak_sign[block_entity_data={id:"minecraft:dark_oak_sign",Text2:{"text":"前往工作人員區","color":"yellow","bold":true,"click_event":{"action":"run_command","command":"tp @s -26 135.00 -220 90 0"}},Text3:{"text":"      ","color":"white","bold":true}},custom_name="Custom Sign"] 1
 give @s minecraft:dark_oak_sign[block_entity_data={id:"minecraft:dark_oak_sign",Text2:{"text":"返回開始大廳","color":"yellow","bold":true,"click_event":{"action":"run_command","command":"function soso:worldspawn"}},Text3:{"text":"      ","color":"white","bold":true}},custom_name="Custom Sign"] 1
 
+give @s minecraft:dark_oak_sign[block_entity_data={id:"minecraft:dark_oak_sign",Text2:{"text":"選擇","color":"white","bold":true,"click_event":{"action":"run_command","command":"function soso:item/killer/talk9"}}},custom_name="Custom Sign"] 1

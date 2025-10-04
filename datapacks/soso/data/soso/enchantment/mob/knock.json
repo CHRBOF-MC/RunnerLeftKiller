@@ -1,0 +1,42 @@
+{
+    "description": {
+        "text": "擊退",
+        "color": "green"
+    },
+    "supported_items": "#soso:hand",
+    "primary_items": "#soso:hand",
+    "weight": 1,
+    "max_level": 5,
+    "min_cost": {
+        "base": 22,
+        "per_level_above_first": 8
+    },
+    "max_cost": {
+        "base": 45,
+        "per_level_above_first": 8
+    },
+    "anvil_cost": 14,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:knockback": [
+            {
+                "requirements": {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "is_direct": true
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 1
+                    }
+                }
+            }
+        ]
+    }
+}

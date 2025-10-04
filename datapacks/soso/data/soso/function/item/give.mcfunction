@@ -3,7 +3,7 @@ effect clear @s[team=!build]
 function soso:item/tagclear
 tag @s add start
 execute if score @s team matches 0 run scoreboard players set @s team 1
-scoreboard players set @s[team=Killer,scores={team=9..}] team 1
+scoreboard players set @s[team=Killer,scores={team=10..}] team 1
 execute unless score flags zTEST matches 1 as @s[team=Runner,scores={team=1}] run function soso:item/suv/1
 execute unless score flags zTEST matches 1 as @s[team=Runner,scores={team=2}] run function soso:item/suv/2
 execute unless score flags zTEST matches 1 as @s[team=Runner,scores={team=3}] run function soso:item/suv/3
