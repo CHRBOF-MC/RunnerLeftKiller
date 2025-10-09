@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "擊退",
+        "translate": "enchantment.minecraft.knockback",
         "color": "green"
     },
     "supported_items": "#soso:hand",

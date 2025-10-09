@@ -27,7 +27,7 @@ tellraw @a ["",{"text":"魔導爆彈數量：","bold":true,"color":"light_purple
 
 
 execute unless entity @e[tag=mapspawnkill] at @e[tag=mapspawn] run forceload add ~-32 ~-32 ~32 ~32
-execute run tellraw @a [{"text":"地圖：","color":"yellow","bold":true},{"score":{"name":"map","objective":"zTEST"},"color":"white","bold":true},{"selector":"@e[tag=mapspawn]","color":"yellow","bold":true},{"selector":"@e[tag=mapspawnkill]","color":"yellow","bold":true}]
+execute run tellraw @a [{"text":"賽道：","color":"yellow","bold":true},{"score":{"name":"map","objective":"zTEST"},"color":"white","bold":true},{"selector":"@e[tag=mapspawn]","color":"yellow","bold":true},{"selector":"@e[tag=mapspawnkill]","color":"yellow","bold":true}]
 execute as @e[tag=mapspawn] at @s run function soso:alltimeuse/mapforceloadreset
 tellraw @a ["",{"text":"《已經套用所有設定》","bold":true,"color":"gold"}]
 

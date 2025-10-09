@@ -1,6 +1,6 @@
 clear @s[tag=book2]
 execute as @s[tag=book2] run function soso:setgame/book2
-tellraw @s ["",{"text":"【SHIFT+點我得到地圖命名指令(逃生者重生點建立後有效)】","bold":true,"color":"gold","insertion":"/data merge entity @e[limit=1,sort=nearest,tag=spawn] {CustomName:\"輸入名稱\"}"}]
+tellraw @s ["",{"text":"【SHIFT+點我得到賽道命名指令(逃生者重生點建立後有效)】","bold":true,"color":"gold","insertion":"/data merge entity @e[limit=1,sort=nearest,tag=spawn] {CustomName:\"輸入名稱\"}"}]
 tellraw @s ["",{"text":"【SHIFT+點我得到作者命名指令(殺手重生點建立後有效)】","bold":true,"color":"gold","insertion":"/data merge entity @e[limit=1,sort=nearest,tag=spawnkiller] {CustomName:\"《主作者：輸入名稱》《推薦模式：模式 》\"}"}]
 give @s minecraft:command_block[block_entity_data={id:"minecraft:command_block",auto:1b,Command:"function soso:game/spawn/door"},custom_name={"text":"逃生者重生點設定"}]
 give @s minecraft:command_block[block_entity_data={id:"minecraft:command_block",auto:1b,Command:"function soso:game/spawn/doorbig"},custom_name={"text":"殺手重生點設定"}]
