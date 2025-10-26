@@ -99,7 +99,7 @@ scoreboard objectives add itemuse dummy
 scoreboard objectives add itemuseb dummy
 scoreboard objectives add postpx dummy
 scoreboard objectives add killmod totalKillCount
-scoreboard objectives add rlk.kill_count totalKillCount
+scoreboard objectives add rlk.kill_count dummy
 scoreboard objectives add postpy dummy
 scoreboard objectives add postpz dummy
 scoreboard objectives add taskrank dummy
