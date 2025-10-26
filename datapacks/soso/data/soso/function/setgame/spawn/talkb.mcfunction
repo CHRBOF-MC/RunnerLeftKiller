@@ -16,7 +16,7 @@ execute if score @s knono matches 0 run tellraw @a ["",{"text":"低退模式推�
 tellraw @a ["",{"text":"推薦箭矢數量：","bold":true,"color":"gold"},{"score":{"name":"@s","objective":"arrow"}}]
 tellraw @a ["",{"text":"推薦藥水數量：","bold":true,"color":"green"},{"score":{"name":"@s","objective":"potion"}}]
 tellraw @a ["",{"text":"推薦魔導爆彈數量：","bold":true,"color":"light_purple"},{"score":{"name":"@s","objective":"boomball"}}]
-tellraw @a ["",{"text":"遊玩時間估計：","bold":true,"color":"aqua"},{"score":{"name":"@s","objective":"playtime"}},{"text":"分鐘。","bold":true,"color":"aqua"}]
+tellraw @a ["",{"text":"遊玩時間估計：","bold":true,"color":"aqua"},{"score":{"name":"@s","objective":"playtime"}}," ",{"text":"分鐘。","bold":true,"color":"aqua"}]
 
 tellraw @a ["",{"text":"《套用推薦設定》","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/execute as @e[limit=1,tag=mapspawn] run function soso:setgame/spawn/set"}}]
 
