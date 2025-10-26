@@ -37,6 +37,7 @@ execute if score map zTEST matches 27 at @e[tag=map] run clone -16 134 -139 -21 
 execute if score map zTEST matches 28 at @e[tag=map] run clone -82 134 -130 -87 139 -125 ~ ~ ~
 execute if score map zTEST matches 29 at @e[tag=map] run clone -94 134 -125 -89 139 -130 ~ ~ ~
 execute if score map zTEST matches 30 at @e[tag=map] run clone -96 134 -130 -101 139 -125 ~ ~ ~
+execute if score map zTEST matches 31 at @e[tag=map] run clone -103 134 -130 -108 139 -125 ~ ~ ~
 
 
 
