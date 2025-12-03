@@ -16,7 +16,7 @@ execute if score @s task matches 0 run tellraw @a {"text":"逃生門已經開啟
 execute if score @s diedelay = @s die if score @s task matches 0 run bossbar set minecraft:runtime players @a[tag=godpleaseno]
 
 
-execute if score do7e zTEST matches 1 at @s[scores={task=-1..0}] unless entity @e[tag=button,tag=on,scores={task=1..}] run function soso:game/do7e/end
+#execute if score do7e zTEST matches 1 at @s[scores={task=-1..0}] unless entity @e[tag=button,tag=on,scores={task=1..}] run function soso:game/do7e/end
 
 execute if score @s task matches -1..0 if score @s diedelay matches 1.. if score @s diedelay = @s die run bossbar set minecraft:killtime players @a
 execute if score @s task matches -1..0 if score @s diedelay matches 1.. if score @s diedelay = @s die run title @a times 20 40 20

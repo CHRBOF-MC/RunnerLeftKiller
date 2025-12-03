@@ -30,6 +30,9 @@
                                 }
                             }
                         }
+                    },
+                    "type": {
+                        "is_direct": true
                     }
                 }
             }

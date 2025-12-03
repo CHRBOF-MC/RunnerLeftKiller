@@ -66,7 +66,7 @@ execute if score talkspy zTEST matches 0 run kill @e[tag=talkspy]
 execute if score talkspy zTEST matches 0 run fill -103 138 -198 -103 136 -192 minecraft:white_concrete
 execute if score talkspy zTEST matches 0 run setblock -102 137 -195 minecraft:dark_oak_wall_sign[facing=east]
 #execute if score talkspy zTEST matches 0 run data merge block -102 137 -195 {Text2: "{\"text\":\"間諜模式說明\",\"color\":\"green\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function soso:setgame/talk/spy\"}}"}
-execute if score talkspy zTEST matches 0 run data modify block -102 137 -195 front_text.messages[1] set value {"text":"間諜模式說明","color":"green","bold":true,"click_event":{"action":"run_command","command":"function soso:setgame/talk/spy"}}
+execute if score talkspy zTEST matches 0 run data modify block -102 137 -195 front_text.messages[1] set value {"text":"間諜模式說明","color":"green","bold":true,"click_event":{"action":"run_command","command":"/function soso:setgame/talk/spy"}}
 
 
 

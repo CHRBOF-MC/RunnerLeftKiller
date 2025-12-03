@@ -70,7 +70,7 @@ execute if score talkghast zTEST matches 0 run kill @e[tag=talkghast]
 execute if score talkghast zTEST matches 0 run fill -103 138 -188 -103 136 -182 minecraft:white_concrete
 execute if score talkghast zTEST matches 0 run setblock -102 137 -185 minecraft:dark_oak_wall_sign[facing=east]
 #execute if score talkghast zTEST matches 0 run data merge block -102 137 -185 {Text2: "{\"text\":\"詭殺模式說明\",\"color\":\"dark_red\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function soso:setgame/talk/ghast\"}}"}
-execute if score talkghast zTEST matches 0 run data modify block -102 137 -185 front_text.messages[1] set value {"text":"詭殺模式說明","color":"dark_red","bold":true,"click_event":{"action":"run_command","command":"function soso:setgame/talk/ghast"}}
+execute if score talkghast zTEST matches 0 run data modify block -102 137 -185 front_text.messages[1] set value {"text":"詭殺模式說明","color":"dark_red","bold":true,"click_event":{"action":"run_command","command":"/function soso:setgame/talk/ghast"}}
 
 
 

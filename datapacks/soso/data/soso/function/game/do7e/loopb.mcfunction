@@ -1,4 +1,4 @@
-scoreboard players set @a[distance=..5] do7e 1
+execute if entity @s[scores={task=1..}] run scoreboard players set @a[distance=..5] do7e 1
 bossbar set minecraft:do7e players @a
 
 
@@ -14,7 +14,7 @@ execute if score do7e do7e matches 0 run function soso:game/do7e/boom
 
 
 
-
+scoreboard players set do7eonnow zTEST 0
 
 schedule function soso:game/do7e/end 22t
 

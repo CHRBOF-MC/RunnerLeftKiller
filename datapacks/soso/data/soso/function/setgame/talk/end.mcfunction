@@ -51,7 +51,7 @@ execute if score talkend zTEST matches 0 run kill @e[tag=talkend]
 execute if score talkend zTEST matches 0 run fill -65 138 -188 -65 136 -182 minecraft:white_concrete
 execute if score talkend zTEST matches 0 run setblock -66 137 -185 minecraft:dark_oak_wall_sign[facing=west]
 #execute if score talkend zTEST matches 0 run data merge block -66 137 -185 {Text2: "{\"text\":\"逃生終點說明\",\"color\":\"gold\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function soso:setgame/talk/end\"}}"}
-execute if score talkend zTEST matches 0 run data modify block -66 137 -185 front_text.messages[1] set value {"text":"逃生終點說明","color":"gold","bold":true,"click_event":{"action":"run_command","command":"function soso:setgame/talk/end"}}
+execute if score talkend zTEST matches 0 run data modify block -66 137 -185 front_text.messages[1] set value {"text":"逃生終點說明","color":"gold","bold":true,"click_event":{"action":"run_command","command":"/function soso:setgame/talk/end"}}
 
 
 
