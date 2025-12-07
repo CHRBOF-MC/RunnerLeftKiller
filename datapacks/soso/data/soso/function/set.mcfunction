@@ -45,6 +45,8 @@ scoreboard objectives add playcode dummy
 
 
 gamerule doTileDrops false
+scoreboard objectives add bek_knowno dummy
+scoreboard objectives add bek_knownok dummy
 scoreboard objectives add nx dummy
 scoreboard objectives add ny dummy
 scoreboard objectives add nz dummy

@@ -1,0 +1,19 @@
+{
+    "parent": "soso:root",
+    "criteria": {
+        "norege": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[norege]}"
+                },
+                "effects": {
+                    "minecraft:regeneration": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "soso:skill/effect/norege"
+    }
+}

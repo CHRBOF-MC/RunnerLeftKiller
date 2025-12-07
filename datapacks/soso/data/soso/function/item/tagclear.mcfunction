@@ -8,6 +8,7 @@ tag @s remove spawndie
 tag @s remove mainfin
 tag @s remove world
 tag @s remove nether
+tag @s remove norege
 tag @s remove tasksay
 tag @s remove scoreking
 tag @s remove lifeking

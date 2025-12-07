@@ -1,6 +1,7 @@
 
 
 function soso:item/suv/health_reset
+tag @s add norege
 
 execute if score knono zTEST matches 0 run effect give @s minecraft:health_boost infinite 9 true
 execute if score knono zTEST matches 1 run effect give @s minecraft:health_boost infinite 4 true

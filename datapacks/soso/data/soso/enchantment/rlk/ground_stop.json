@@ -1,0 +1,46 @@
+{
+    "description": {
+        "text": "不動如山",
+        "color": "#00ffbf"
+    },
+    "supported_items": "#soso:test",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 12,
+        "per_level_above_first": 7
+    },
+    "max_cost": {
+        "base": 17,
+        "per_level_above_first": 10
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "any"
+    ],
+    "effects": {
+        "minecraft:damage_immunity": [
+            {
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_sneaking": true,
+                            "is_on_ground": true
+                        }
+                    }
+                },
+                "effect": {}
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:sneaking_speed",
+                "id": "asdad",
+                "amount": -1,
+                "operation": "add_multiplied_total"
+            }
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 schedule function soso:alltimeuse/alltimeuse 1t
 
-
+scoreboard players add tick zTEST 1
 execute as @e[type=minecraft:armor_stand] unless score @s CODENAME matches 1 run function soso:game/armor/dataout
 execute as @e[limit=20,type=#soso:core,tag=!cloudout,tag=!finaltagcheck,tag=!datacopycloud] run function soso:game/data/copytagdo
 execute as @e[limit=20,type=#soso:core,tag=cloudout,tag=!datacopycloud] at @s run function soso:game/data/copysum
