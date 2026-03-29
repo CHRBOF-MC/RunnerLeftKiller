@@ -16,5 +16,5 @@ execute if score arrowb zTEST matches 5.. if score flags zTEST matches 1.. run g
 execute if score arrowb zTEST matches 5.. run scoreboard players remove arrowb zTEST 5
 
 
-execute if score arrowb zTEST matches 5.. run function soso:item/arrowb
+execute if score arrowb zTEST matches 5.. run function soso:item/arrowselfb
 
