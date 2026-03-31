@@ -3,7 +3,7 @@ scoreboard objectives setdisplay sidebar skyway
 scoreboard objectives setdisplay list hp
 scoreboard objectives setdisplay below_name hp
 kill @e[type=minecraft:item]
-gamerule sendCommandFeedback false
+gamerule send_command_feedback false
 team join spc @a[team=]
 scoreboard players set 10core zTEST -1
 effect clear @a[team=!build]

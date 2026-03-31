@@ -24,8 +24,8 @@ execute if score spy zTEST matches 1 run team modify Runner friendlyFire true
 execute if score spy zTEST matches 0 run team modify Runner friendlyFire false
 execute if score spy zTEST matches 1 run team modify Killer friendlyFire true
 execute if score spy zTEST matches 0 run team modify Killer friendlyFire false
-execute if score spy zTEST matches 1 run gamerule showDeathMessages false
-execute if score spy zTEST matches 0 run gamerule showDeathMessages true
+execute if score spy zTEST matches 1 run gamerule show_death_messages false
+execute if score spy zTEST matches 0 run gamerule show_death_messages true
 execute if score spy zTEST matches 1 run team modify Runner seeFriendlyInvisibles false
 execute if score spy zTEST matches 0 run team modify Runner seeFriendlyInvisibles true
 execute if score spy zTEST matches 0 run team modify Killer color red

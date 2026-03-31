@@ -1,4 +1,4 @@
-execute store result score daynight zTEST run time query daytime
+execute store result score daynight zTEST run time query day
 
 execute if score daynight zTEST matches 13000.. store result score 【現在時間：夜晚】 skyway run scoreboard players remove daynight zTEST 24000
 execute if score daynight zTEST matches 0..12999 store result score 【現在時間：白晝】 skyway run scoreboard players remove daynight zTEST 13000

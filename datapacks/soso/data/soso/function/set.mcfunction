@@ -33,7 +33,7 @@ scoreboard objectives add ourkill dummy
 scoreboard objectives add ourkilltimes dummy
 
 
-gamerule locatorBar false
+gamerule locator_bar false
 scoreboard objectives add shop dummy
 scoreboard objectives add shopbuy trigger
 
@@ -44,7 +44,7 @@ scoreboard objectives add flagsitem dummy
 scoreboard objectives add playcode dummy
 
 
-gamerule doTileDrops false
+gamerule block_drops false
 scoreboard objectives add bek_knowno dummy
 scoreboard objectives add bek_knownok dummy
 scoreboard objectives add nx dummy
@@ -129,7 +129,7 @@ scoreboard objectives add hp health
 scoreboard objectives add task dummy
 scoreboard objectives add taskreset dummy
 scoreboard objectives add team dummy
-gamerule doMobSpawning false
+gamerule spawn_mobs false
 scoreboard objectives setdisplay sidebar skyway
 scoreboard objectives add CODENAME dummy {"text":"遊戲核心代號","color":"yellow","bold":true}
 scoreboard objectives add CODENAMEb dummy {"text":"遊戲核心代號","color":"yellow","bold":true}
@@ -138,8 +138,8 @@ scoreboard objectives add eventscore dummy {"text":"事件分數","color":"yello
 scoreboard objectives add fish minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives setdisplay below_name hp
 scoreboard objectives add tasktalk dummy
-gamerule spawnRadius 0
-gamerule commandBlockOutput false
+gamerule respawn_radius 0
+gamerule command_block_output false
 scoreboard players set tasknameget zTEST 0
 scoreboard players set -1 zTEST -1
 scoreboard players set 0 zTEST 0
@@ -182,7 +182,7 @@ scoreboard players set 360 zTEST 360
 scoreboard players set 100 zTEST 100
 scoreboard players set pur zTEST 1
 
-gamerule naturalRegeneration false
+gamerule natural_health_regeneration false
 scoreboard objectives add tasktype dummy
 bossbar add xr "你正在遠離活動場地【X軸】"
 bossbar set minecraft:xr color red
@@ -270,7 +270,7 @@ team add spc "監視者"
 team modify spc color black
 team add pur "紫之伏"
 team modify pur color light_purple
-gamerule doImmediateRespawn true
+gamerule immediate_respawn true
 team add build
 team modify build color aqua
 team modify build prefix "【建築者】"
@@ -287,17 +287,17 @@ bossbar set killboo color red
 
 execute if score 遊戲開始 zTEST matches 0 run scoreboard objectives setdisplay list team
 execute if score 遊戲開始 zTEST matches 1 run scoreboard objectives setdisplay list hp
-gamerule drowningDamage true
+gamerule drowning_damage true
 function killman:set
 team join 2b 【現在時間：白晝】
 team join 11b 【現在時間：夜晚】
-gamerule fallDamage true
-execute if score falldamage zTEST matches 0 run gamerule fallDamage false
-execute if score falldamage zTEST matches 1 run gamerule fallDamage true
+gamerule fall_damage true
+execute if score falldamage zTEST matches 0 run gamerule fall_damage false
+execute if score falldamage zTEST matches 1 run gamerule fall_damage true
 
-gamerule fireDamage true
-execute if score firedamage zTEST matches 0 run gamerule fireDamage false
-execute if score firedamage zTEST matches 1 run gamerule fireDamage true
+gamerule fire_damage true
+execute if score firedamage zTEST matches 0 run gamerule fire_damage false
+execute if score firedamage zTEST matches 1 run gamerule fire_damage true
 
 
 scoreboard players set 日夜交替 zTEST 0
@@ -317,7 +317,7 @@ title @a actionbar ["",{"text":"逃脫升天-小恐龍守護者指令包再讀�
 schedule function soso:alltimeuse/ramdonsum 1t
 schedule function soso:alltimeuse/alltimeuse 1t
 schedule function soso:gamecode/codenormal 1t
-gamerule drowningDamage true
+gamerule drowning_damage true
 
 execute unless score spawn Qit matches 1.. run scoreboard players set spawn Qit 1
 
