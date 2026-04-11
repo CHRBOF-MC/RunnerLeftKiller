@@ -9,8 +9,8 @@ scoreboard players set @a[scores={ourkilltimes=1..}] sneaktime 0
 scoreboard players set @a[team=Runner] ourkill 600
 execute as @a[team=Runner] run scoreboard players operation @s ourkill -= @s sneaktime
 execute as @a[team=Runner] run scoreboard players operation @s ourkill /= 20 zTEST
-execute as @a[team=Runner,predicate=soso:sneaking] run title @s actionbar ["",{"text":"與殺手協商成為叛徒剩餘時間：","color":"light_purple"},{"score":{"name":"@s ","objective":"ourkill"},"color":"aqua"},{"text":"秒","color":"light_purple"}]
-execute as @a[team=Killer] run title @s actionbar ["",{"text":"殺手信賴度：","color":"light_purple"},{"score":{"name":"@s ","objective":"spy"},"color":"aqua"},{"text":"%","color":"light_purple"}]
+execute as @a[team=Runner,predicate=soso:sneaking] run title @s actionbar ["",{"text":"與殺手協商成為叛徒剩餘時間： ","color":"light_purple"},{"score":{"name":"@s","objective":"ourkill"},"color":"aqua"},{"text":" 秒","color":"light_purple"}]
+execute as @a[team=Killer] run title @s actionbar ["",{"text":"殺手信賴度： ","color":"light_purple"},{"score":{"name":"@s","objective":"spy"},"color":"aqua"},{"text":"%","color":"light_purple"}]
 
 
 execute if entity @p[scores={ourkilltimes=1..}] run function soso:gamemode/ourkill/ourkilltimeb
