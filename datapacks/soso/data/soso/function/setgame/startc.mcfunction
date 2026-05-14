@@ -53,6 +53,7 @@ scoreboard players set @a tasktalk 1
 scoreboard players set @a taskreset 0
 scoreboard players reset @a rlk.kill_count
 data remove storage rlk:killed_player records
+execute if score spy zTEST matches 1 run data modify storage rlk:spy_vote_log records set value [""]
 
 
 

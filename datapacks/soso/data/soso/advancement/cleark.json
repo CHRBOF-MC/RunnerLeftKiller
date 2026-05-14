@@ -27,7 +27,7 @@
                         "equipment": {
                             "mainhand": {
                                 "predicates": {
-                                    "custom_data": {"cleark" :true}
+                                    "custom_data": {"cleark": true}
                                 }
                             }
                         }
