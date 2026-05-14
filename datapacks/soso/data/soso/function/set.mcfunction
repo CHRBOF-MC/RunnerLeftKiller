@@ -37,6 +37,8 @@ gamerule locator_bar false
 scoreboard objectives add shop dummy
 scoreboard objectives add shopbuy trigger
 
+scoreboard objectives add rlk.quick_action trigger
+
 
 scoreboard objectives add flagsitem dummy
 
@@ -315,7 +317,6 @@ execute unless score modattset zTEST matches 0.. run scoreboard players set moda
 bossbar set minecraft:boss4 color yellow
 title @a actionbar ["",{"text":"逃脫升天-小恐龍守護者指令包再讀入完成","color":"yellow","bold":true}]
 schedule function soso:alltimeuse/ramdonsum 1t
-schedule function soso:alltimeuse/alltimeuse 1t
 schedule function soso:gamecode/codenormal 1t
 gamerule drowning_damage true
 

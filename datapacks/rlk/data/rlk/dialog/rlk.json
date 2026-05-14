@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "逃脫升天",
+  "columns": 1,
+  "actions": [
+    {
+      "label": "逃脫升天",
+      "action": {
+        "type": "run_command",
+        "command": "/trigger rlk.quick_action"
+      }
+    }
+  ]
+}

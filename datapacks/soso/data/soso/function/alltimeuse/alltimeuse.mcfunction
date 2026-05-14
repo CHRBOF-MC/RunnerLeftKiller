@@ -1,5 +1,3 @@
-schedule function soso:alltimeuse/alltimeuse 1t
-
 scoreboard players add tick zTEST 1
 execute as @e[type=minecraft:armor_stand] unless score @s CODENAME matches 1 run function soso:game/armor/dataout
 execute as @e[limit=20,type=#soso:core,tag=!cloudout,tag=!finaltagcheck,tag=!datacopycloud] run function soso:game/data/copytagdo
@@ -55,3 +53,4 @@ scoreboard players set @a Qit 0
 
 
 execute if score 遊戲開始 zTEST matches 1 if score shopopen zTEST matches 1 unless score runman zTEST matches 1.. unless score spy zTEST matches 1.. unless score ghast zTEST matches 1.. unless score ourkill zTEST matches 1.. unless score flags zTEST matches 1.. run function soso:item/shop/t1
+function rlk:trigger/t1
