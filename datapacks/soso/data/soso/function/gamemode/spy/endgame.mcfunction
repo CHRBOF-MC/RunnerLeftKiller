@@ -8,11 +8,12 @@ execute unless entity @p[team=Runner,scores={spy=1}] run title @a title [{"text"
 execute unless entity @p[team=Runner,scores={spy=1}] run title @a subtitle [{"text":"間諜被抓光了！","color":"blue","bold":true}]
 execute unless entity @p[team=Runner,scores={spy=0}] run title @a title [{"text":"間諜勝利","color":"red","bold":true}]
 execute unless entity @p[team=Runner,scores={spy=0}] run title @a subtitle [{"text":"逃生者被暗中殺光了！","color":"red","bold":true}]
-execute run team join Killer @a[scores={spy=1}]
-execute run team modify Killer color green
-execute run team modify Killer prefix "【間諜殺手】"
+team join Killer @a[scores={spy=1}]
+team modify Killer color green
+team modify Killer prefix "【間諜殺手】"
 tellraw @a [{"text":"間諜是","color":"blue","bold":true},{"selector":"@a[scores={spy=1}]","color":"yellow","bold":true}]
 tellraw @a [{"text":"暗夜時間使用順序: ","color":"yellow"},{"type":"nbt","source":"storage","storage":"soso:spy","nbt":"night_history[]","interpret":true,"separator":{"text":", ","color":"gray"}}]
-execute run team modify Killer color blue
-execute run team modify Killer prefix "【逃亡者】"
+execute if data storage rlk:spy_vote_log records[1] run tellraw @a [{"text":"點擊查看投票記錄","color":"blue","click_event":{"action":"run_command","command":"/trigger rlk.quick_action set 2"}}]
+team modify Killer color blue
+team modify Killer prefix "【逃亡者】"
 
