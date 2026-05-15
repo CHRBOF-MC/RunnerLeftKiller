@@ -11,6 +11,7 @@ scoreboard players set @e[tag=spawntpfirst] knono 0
 scoreboard players set @e[tag=spawntpfirst] killtp 1
 scoreboard players set @e[tag=spawntpfirst] boomball 1
 execute as @e[tag=spawntpfirst] run function soso:item/spawn
+scoreboard players set @e[tag=spawntpfirst] rlk.times_played 0
 tellraw @p "逃生者重生點已經設定完成。"
 tag @e remove spawntpfirst
 

@@ -34,6 +34,7 @@ scoreboard players set * code 2
 execute as @e[tag=spawn] run scoreboard players operation @s diedelay = @s die
 
 
+execute as @e[tag=spawn] if score @s CODENAMEb = map zTEST run scoreboard players add @s rlk.times_played 1
 #execute as @e[tag=spawn] if score @s CODENAMEb = map zTEST positioned as @s run tp @a[team=Runner] ~ ~ ~
 execute as @e[tag=spawnkiller] if score @s CODENAMEb = map zTEST positioned as @s run tp @a[team=Killer] ~ ~ ~
 

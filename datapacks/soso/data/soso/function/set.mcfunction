@@ -140,6 +140,7 @@ scoreboard objectives add eventscore dummy {"text":"事件分數","color":"yello
 scoreboard objectives add fish minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives setdisplay below_name hp
 scoreboard objectives add tasktalk dummy
+scoreboard objectives add rlk.times_played dummy
 gamerule respawn_radius 0
 gamerule command_block_output false
 scoreboard players set tasknameget zTEST 0

@@ -8,7 +8,7 @@ execute store result score @s door run data get entity @s data.door 0.1
 execute store result score @s doorclose run data get entity @s data.doorclose 0.1
 execute store result score @s doorkill run data get entity @s data.doorkill 0.1
 execute store result score @s boomball run data get entity @s data.boomball 0.1
-execute store result score @s fallDamage run data get entity @s datadata.Damage 0.1
+execute store result score @s fallDamage run data get entity @s data.fallDamage 0.1
 execute store result score @s firedamage run data get entity @s data.firedamage 0.1
 execute store result score @s nightday run data get entity @s data.nightday 0.1
 execute store result score @s arrow run data get entity @s data.arrow 0.1
