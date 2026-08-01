@@ -21,8 +21,10 @@
         "asd": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
-                "entity": {
-                    "minecraft:entity_type": "minecraft:player"
+                "damage": {
+                    "source_entity": {
+                        "minecraft:entity_type": "minecraft:player"
+                    }
                 }
             }
         }
