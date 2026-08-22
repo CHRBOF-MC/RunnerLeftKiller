@@ -1,3 +1,4 @@
+execute store result score @s shop run clear @s minecraft:arrow 0
 execute if score @s shopbuy matches 100.. run tag @s add shop_dialog_menu
 execute if entity @s[tag=shop_dialog_menu] run scoreboard players remove @s shopbuy 100
 
