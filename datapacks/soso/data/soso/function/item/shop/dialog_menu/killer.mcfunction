@@ -100,14 +100,9 @@ $dialog show @s \
       }\
     }\
   ],\
-  "after_action": "none",\
   "pause": false,\
   "exit_action": {\
-    "label": "關閉商店",\
-    "action": {\
-      "type": "minecraft:run_command",\
-      "command": "/trigger shopbuy set -1"\
-    }\
+    "label": "關閉商店"\
   },\
   "columns": 2,\
   "actions": [\
