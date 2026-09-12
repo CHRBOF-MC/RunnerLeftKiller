@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "shop": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": "{shopopen:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rlk:item/use/shop"
+  }
+}

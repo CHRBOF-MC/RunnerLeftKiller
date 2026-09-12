@@ -35,7 +35,7 @@ execute unless score flags zTEST matches 1 unless score spy zTEST matches 1 as @
 execute if score runman zTEST matches 1.. run effect give @s minecraft:resistance infinite 252 true
 execute if score shopopen zTEST matches 1 run scoreboard players set @s shop 0
 execute if score shopopen zTEST matches 1 run clear @s[team=!build,team=!spc] *[custom_data~{shopopen:1b}]
-execute if score shopopen zTEST matches 1 run give @s[team=!build,team=!spc] minecraft:carrot_on_a_stick[unbreakable={},custom_name=[{"text":""},{"text":"商店連線裝置","color":"gold","bold":true}],lore=[["丟出可開啟聊天欄商店"],[{keybind:"key.use"},"可開啟dialog商店"]],custom_data={shopopen:1b,suv:1b},item_model="ghast_tear"]
+execute if score shopopen zTEST matches 1 run give @s[team=!build,team=!spc] minecraft:ghast_tear[unbreakable={},custom_name=["",{"text":"商店連線裝置","color":"gold","bold":true}],lore=[["丟出可開啟聊天欄商店"],[{keybind:"key.use"},"可開啟對話框商店"]],custom_data={shopopen:1b,suv:1b},consumable={consume_seconds:9999f,animation:"none"}]
 
 
 

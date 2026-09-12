@@ -36,6 +36,7 @@ scoreboard objectives add ourkilltimes dummy
 gamerule locator_bar false
 scoreboard objectives add shop dummy
 scoreboard objectives add shopbuy trigger
+scoreboard objectives add rlk.shop_slot dummy
 
 scoreboard objectives add rlk.quick_action trigger
 
@@ -138,7 +139,6 @@ scoreboard objectives add CODENAMEb dummy {"text":"遊戲核心代號","color":"
 scoreboard objectives add skyway dummy {"text":"遊戲資訊","color":"yellow","bold":true}
 scoreboard objectives add eventscore dummy {"text":"事件分數","color":"yellow","bold":true}
 scoreboard objectives add fish minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add used_carrot_on_a_stick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives setdisplay below_name hp
 scoreboard objectives add tasktalk dummy
 scoreboard objectives add rlk.times_played dummy
