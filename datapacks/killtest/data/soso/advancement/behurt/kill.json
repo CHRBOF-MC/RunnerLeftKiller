@@ -1,4 +1,5 @@
 {
+	"parent": "soso:root",
     "display": {
         "icon": {
             "id": "minecraft:command_block"

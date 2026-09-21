@@ -5,7 +5,15 @@
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "player": {
-                    "nbt": "{Tags:[knock_ench]}"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_tags": {
+							"all_of": [
+								"knock_ench"
+							]
+						}
+					}
                 }
             }
         }

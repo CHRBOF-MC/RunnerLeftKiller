@@ -21,7 +21,6 @@
         "asd": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
-                "player": [],
                 "damage": {
                     "source_entity": {
                         "equipment": {
