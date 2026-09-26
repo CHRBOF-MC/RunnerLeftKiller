@@ -21,7 +21,7 @@
         "event28": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:water"
+                "blocks": "minecraft:water"
             }
         }
     },
